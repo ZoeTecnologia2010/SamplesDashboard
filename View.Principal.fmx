@@ -1,0 +1,46 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 697
+  ClientWidth = 1065
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Contents
+    Size.Width = 1065.000000000000000000
+    Size.Height = 697.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Layout2: TLayout
+      Align = Left
+      Size.Width = 201.000000000000000000
+      Size.Height = 697.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object Layout3: TLayout
+      Align = Client
+      Size.Width = 864.000000000000000000
+      Size.Height = 697.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Layout4: TLayout
+        Align = Top
+        Size.Width = 864.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object LayoutPrincipal: TLayout
+        Align = Client
+        Size.Width = 864.000000000000000000
+        Size.Height = 647.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+  end
+end

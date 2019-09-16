@@ -1,0 +1,33 @@
+object ViewClientes: TViewClientes
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 480
+  ClientWidth = 983
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Contents
+    Size.Width = 983.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LayoutInfo: TLayout
+      Align = Top
+      Size.Width = 983.000000000000000000
+      Size.Height = 193.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object LayoutDetalhe: TLayout
+      Align = Client
+      Size.Width = 983.000000000000000000
+      Size.Height = 287.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+end

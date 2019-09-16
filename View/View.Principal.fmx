@@ -1,0 +1,48 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 697
+  ClientWidth = 1065
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Contents
+    Size.Width = 1065.000000000000000000
+    Size.Height = 697.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LayoutMenu: TLayout
+      Align = Left
+      Size.Width = 233.000000000000000000
+      Size.Height = 697.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object Layout3: TLayout
+      Align = Client
+      Size.Width = 832.000000000000000000
+      Size.Height = 697.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object LayoutToolBar: TLayout
+        Align = Top
+        Size.Width = 832.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object LayoutPrincipal: TLayout
+        Align = Client
+        Size.Width = 832.000000000000000000
+        Size.Height = 647.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+  end
+end
